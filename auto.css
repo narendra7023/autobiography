@@ -1,0 +1,42 @@
+.uppersection{
+    align-items: center;
+    text-align: center;
+
+}
+.pic{
+     border-radius: 50%;
+     height: 187px;
+     width: 186px;
+ 
+}
+.detail{
+
+    margin: -15px 2px;
+    padding: 5px 127px;
+
+
+}
+.end{
+    position: absolute;
+     right: 192px;
+     margin: 69px auto ;
+      
+    
+}
+.ab{
+    margin: -15px 48px;
+}
+.text{
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@media (max-width:800px) {
+    .detail {
+         padding: 9px 0px;
+    }
+    
+    .end{
+        right: 1px;
+        margin: 23px auto;
+    }
+}
